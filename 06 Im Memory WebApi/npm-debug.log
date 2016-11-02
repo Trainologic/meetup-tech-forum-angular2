@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '@types/rxjs',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @types/rxjs
+8 silly fetchNamedPackageData @types/rxjs
+9 silly mapToRegistry name @types/rxjs
+10 silly mapToRegistry scope (from package name) @types
+11 verbose mapToRegistry no registry URL found in name for scope @types
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry http://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@types/rxjs',
+14 silly mapToRegistry   scope: '@types',
+14 silly mapToRegistry   escapedName: '@types%2frxjs',
+14 silly mapToRegistry   name: '@types/rxjs',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri http://registry.npmjs.org/@types%2frxjs
+16 verbose request uri http://registry.npmjs.org/@types%2frxjs
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 08:33:10
+19 verbose request using bearer token for auth
+20 verbose request id 42a5d813ed419857
+21 http request GET http://registry.npmjs.org/@types%2frxjs
+22 http 404 http://registry.npmjs.org/@types%2frxjs
+23 verbose headers { 'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=0',
+23 verbose headers   'content-length': '21',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Wed, 02 Nov 2016 06:33:07 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-lcy1136-LCY',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1478068386.897465,VS0,VE961' }
+24 silly get cb [ 404,
+24 silly get   { 'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=0',
+24 silly get     'content-length': '21',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Wed, 02 Nov 2016 06:33:07 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-lcy1136-LCY',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1478068386.897465,VS0,VE961' } ]
+25 silly fetchPackageMetaData Error: Not found : @types/rxjs
+25 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+25 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+25 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+25 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+25 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+25 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+25 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+25 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+25 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+25 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+25 silly fetchPackageMetaData  error for @types/rxjs { Error: Not found : @types/rxjs
+25 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+25 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+25 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+25 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+25 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+25 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+25 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+25 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+25 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+25 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12) pkgid: '@types/rxjs', statusCode: 404, code: 'E404' }
+26 silly rollbackFailedOptional Starting
+27 silly rollbackFailedOptional Finishing
+28 silly runTopLevelLifecycles Starting
+29 silly runTopLevelLifecycles Finishing
+30 silly install printInstalled
+31 verbose stack Error: Not found : @types/rxjs
+31 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+31 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+31 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+31 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+31 verbose stack     at emitTwo (events.js:106:13)
+31 verbose stack     at Request.emit (events.js:191:7)
+31 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+31 verbose stack     at emitOne (events.js:101:20)
+31 verbose stack     at Request.emit (events.js:188:7)
+31 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+32 verbose statusCode 404
+33 verbose pkgid @types/rxjs
+34 verbose cwd F:\TechForum\06 HTTP
+35 error Windows_NT 10.0.14393
+36 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "@types/rxjs" "--save"
+37 error node v6.5.0
+38 error npm  v3.10.3
+39 error code E404
+40 error 404 Not found : @types/rxjs
+41 error 404
+42 error 404 '@types/rxjs' is not in the npm registry.
+43 error 404 You should bug the author to publish it (or use the name yourself!)
+44 error 404 Note that you can also install from a
+45 error 404 tarball, folder, http url, or git url.
+46 verbose exit [ 1, true ]

@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let contact of contacts">
+        <span>{{contact.name}}</span>
+        <button *ngIf="!hideDelete" (click)="remove(contact, index)">Delete</button>
+    </li>
+</ul>

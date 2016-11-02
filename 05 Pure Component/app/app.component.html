@@ -1,0 +1,9 @@
+<h1>App Component</h1>
+
+<contact-index [contacts]="contacts" (onDelete)="remove($event)"></contact-index>
+
+<contact-index [contacts]="contacts" [hideDelete]="true"></contact-index>
+
+<div>
+    <input [(ngModel)]="name"><button (click)="add()">Add</button>
+</div>
